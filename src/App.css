@@ -11,7 +11,7 @@ h1{
   font-family: 'Poppins', sans-serif;
 }
 .header {
-    flex-shrink: 0;        /* never shrinks */
+    flex-shrink: 0;       
     border-bottom: none;
     text-align: center;
 }
@@ -36,7 +36,7 @@ input{
 }
 
 .inputbox {
-    flex-shrink: 0;        /* never shrinks, stays at bottom */
+    flex-shrink: 0;        
     text-align: center;
     padding: 20px;
     display: flex;
@@ -60,8 +60,8 @@ font-weight: 500;
 }
 
 .tasklist {
-    flex: 1;               /* takes all remaining space */
-    overflow-y: auto;      /* scrolls when content overflows */
+    flex: 1;               
+    overflow-y: auto;      
     text-align: center;
     border-bottom: none;
     max-width: 550px;
@@ -74,14 +74,13 @@ font-weight: 500;
 
 ul {
     width: 500px;
-    margin: 0 auto;        /* centers the list */
+    margin: 0 auto;      
     padding: 0;
-    /*list-style-image: url('bullet_final.png');    */  /* removes the bullet points */
 }
 
 li {
     display: flex;
-    justify-content: space-between;  /* text left, button right */
+    justify-content: space-between; 
     align-items: center;
     border-bottom: 1px solid rgb(96, 115, 185);
     background-image: url('/bullet_final.png');
@@ -104,24 +103,20 @@ li {
   font-family: 'Courier New', Courier, monospace;
 }
 
-/* the scrollbar track (background) */
 .tasklist::-webkit-scrollbar {
     width: 8px;
 }
 
-/* the track background */
 .tasklist::-webkit-scrollbar-track {
     background: transparent;
     border-radius: 5px;
 }
 
-/* the draggable part */
 .tasklist::-webkit-scrollbar-thumb {
     background: rgb(131, 147, 204);
     border-radius: 10px;
 }
 
-/* when hovering over the thumb */
 .tasklist::-webkit-scrollbar-thumb {
     border-radius: 10px;
 }
@@ -154,6 +149,6 @@ li {
 body {
     height: 100vh;
     overflow: hidden;
-    background-color: rgb(192, 208, 241);  /* change this to whatever color you want */
+    background-color: rgb(192, 208, 241);  
     font-family: 'Courier New', Courier, monospace;
 }
